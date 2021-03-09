@@ -1,0 +1,56 @@
+.home {
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+.home-nav-title{
+    color: #F3DB5D;
+    font-size: 3.25rem;
+}
+
+.home-image-univers {
+    background: linear-gradient(8deg, rgba(141,148,146,0.7203256302521008) 0%, rgba(79,84,83,0.5970763305322129) 13%), url('../../images/home/marvel.jpg');
+    overflow:hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 380px;
+}
+
+.licence  {
+    background-color: #8D9492;
+    color: #fff;
+    font-size: 1.50rem;
+    padding: 25px;
+}
+
+.text {
+    background-color: #8D9492;
+    color: #fff;
+    font-size: 1.50rem;
+}
+
+.home-image-collection {
+    background: linear-gradient(8deg, rgba(141,148,146,0.7203256302521008) 0%, rgba(79,84,83,0.5970763305322129) 13%), url('../../images/home/mug-maison-serpentard.jpg');
+    overflow:hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 380px;
+}
+
+.space {
+    margin-bottom: 50px;
+}
+
+
+@media (max-width: 576px) {
+
+    .licence {
+        padding: 65px;
+    }
+
+    .text {
+        margin-bottom: 50px;
+    }
+}

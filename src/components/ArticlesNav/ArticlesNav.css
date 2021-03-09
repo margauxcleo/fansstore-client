@@ -1,0 +1,20 @@
+.nav-articles{
+    background-color: #8D9492!important;
+}
+
+.nav-articles .nav-link.active {
+    background-color: #F3DB5D;
+    color: #FFF;
+    transition: background-color .2s, #F3DB5D .2s;
+}
+
+.nav-articles .nav-link {
+    background-color: transparent;
+    color: #FFF;
+}
+
+.nav-articles .nav-link:hover {
+    cursor: pointer;
+    /* border-color: #F3DB5D!important;
+    box-shadow: 0 0 0 0.2rem rgb(243 219 93 / 50%)!important; */
+}

@@ -1,0 +1,113 @@
+/* Fonts depuis Universes.css*/
+
+.universes-links{
+    background-color: #FFF;
+    margin-bottom: 2rem;
+}
+
+.universes-links .nav-link{
+    text-align: center;
+}
+
+.universes-links .nav-link:hover{
+    text-decoration: none;
+}
+
+.universe-nav-title{
+    color: #F3DB5D;
+    font-size: 1.25rem;
+    z-index: 100;
+}
+
+.circle {
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    overflow:hidden;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+/* .mask{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    flex-wrap: wrap;
+    z-index: 5;
+    background: linear-gradient(0deg, rgba(229,229,229,1) 0%, rgba(79,84,83,1) 100%);
+    opacity: 0.6;
+} */
+
+.hp-circle{
+    background: linear-gradient(8deg, rgba(141,148,146,0.7203256302521008) 0%, rgba(79,84,83,0.5970763305322129) 13%), url('../../images/universes-nav/hp.jpg');
+    overflow:hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hp-circle span {
+    font-family: 'harry_potter','roboto', 'opensans', sans-serif;
+    font-size: 2.5rem;
+}
+
+.marvel-circle{
+    background: linear-gradient(8deg, rgba(141,148,146,0.7203256302521008) 0%, rgba(79,84,83,0.5970763305322129) 13%), url('../../images/universes-nav/marvel.jpg');
+    overflow:hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.marvel-circle span {
+    font-family: 'marvel','roboto', 'opensans', sans-serif;
+    font-size: 2.5rem;
+}
+
+.lotr-circle{
+    background: linear-gradient(8deg, rgba(141,148,146,0.7203256302521008) 0%, rgba(79,84,83,0.5970763305322129) 13%), url('../../images/universes-nav/lotr.jpg');
+    overflow:hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.lotr-circle span {
+    font-family: 'lord_of_the_rings','roboto', 'opensans', sans-serif;
+    font-size: 1.4rem;
+}
+
+.sw-circle{
+    background: linear-gradient(8deg, rgba(141,148,146,0.7203256302521008) 0%, rgba(79,84,83,0.5970763305322129) 13%), url('../../images/universes-nav/sw.jpg');
+    overflow:hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sw-circle span {
+    font-family: 'star_wars', 'roboto', 'opensans', sans-serif;
+    font-size: 1.8rem;
+}
+
+@media (max-width: 960px) {
+    .circle-sm {
+        width:150px;
+        height:150px;
+        border-radius:50%;
+        overflow:hidden; 
+        flex-wrap: wrap;
+    }
+    .hp-circle span {
+        font-size: 2rem;
+    }
+    .marvel-circle span {
+        font-size: 2rem;
+    }
+    .lotr-circle span {
+        font-size: 1rem;
+    }
+    .sw-circle span {
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,81 @@
+/* Fonts */
+@font-face {
+    font-family: "harry_potter";
+    src: url("../../fonts/hp/harry_potter.TTF") format('truetype');
+}
+@font-face {
+    font-family: "lord_of_the_rings";
+    src: url("../../fonts/tlotr/RINGM___.TTF") format('truetype');
+}
+@font-face {
+    font-family: "marvel";
+    src: url("../../fonts/marvel/Marvel-Regular.ttf") format('truetype');
+}
+@font-face {
+    font-family: "star_wars";
+    src: url("../../fonts/sw/Starjedi.ttf") format('truetype');
+}
+
+.mainTheme h1 {
+    font-style: italic;
+}
+
+.hp .articles{
+    background-color: #630B1C;
+}
+
+.hp h1 {
+    font-family: 'harry_potter','roboto', 'opensans', sans-serif;
+    font-size: 5rem;
+}
+
+.sda .articles {
+    background-color: #597D56;
+}
+
+.sda h1 {
+    font-family: 'lord_of_the_rings','roboto', 'opensans', sans-serif;
+    font-size: 3.5rem;
+}
+
+.sw .articles {
+    background-color: #0A0815;
+}
+
+.sw .nav-articles {
+    background-color: #22445D!important;
+}
+
+.sw h1 {
+    font-family: 'star_wars', 'roboto', 'opensans', sans-serif;
+    font-size: 3.5rem;
+}
+
+.marvel .articles {
+    background-color: #32549D;
+}
+
+.marvel .nav-articles {
+    background-color: #ec1922!important;
+}
+
+.marvel h1 { 
+    font-family: 'marvel','roboto', 'opensans', sans-serif;
+    text-transform: uppercase;
+    font-size: 5rem;
+}
+
+@media (max-width: 576px) {
+    .hp h1 {
+        font-size: 5rem;
+    }
+    .marvel h1  {
+        font-size: 4rem;
+    }
+    .sda h1  {
+        font-size: 2.5rem;
+    }
+    .sw h1 {
+        font-size: 3rem;
+    }
+}
