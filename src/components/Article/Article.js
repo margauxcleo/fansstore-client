@@ -37,7 +37,7 @@ const Article = (props) => {
 
     const fetchArticle = async (id) => {
 
-        const response = await fetch(`http://localhost:8088/produits/${id}`, {
+        const response = await fetch(`https://fansstore-server.herokuapp.com/produits/${id}`, {
             method: "GET",
             mode: "cors",
         });

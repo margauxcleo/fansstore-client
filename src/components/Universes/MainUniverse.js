@@ -44,7 +44,7 @@ const MainUniverse = (props) => {
 
     const fetchArticles = async (path) => {
 
-        const response = await fetch(`http://localhost:8088/${path}`, {
+        const response = await fetch(`https://fansstore-server.herokuapp.com/${path}`, {
             method: "GET",
             mode: "cors",
         });

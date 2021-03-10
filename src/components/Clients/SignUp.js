@@ -15,7 +15,7 @@ const SignUp = (props) => {
     // console.log('onSubmit: ', JSON.stringify(data));
     
     try {
-        const response = await fetch('http://localhost:8088/auth/signup', {
+        const response = await fetch('https://fansstore-server.herokuapp.com/auth/signup', {
             method : 'POST',
             mode : 'cors',
             headers : {

@@ -11,7 +11,7 @@ const ClientInfos = (props) => {
 
     const getInfos = async () => {
         try {
-            const response = await fetch("http://localhost:8088/clients/client/infos", {
+            const response = await fetch("https://fansstore-server.herokuapp.com/clients/client/infos", {
                 method: 'GET',
                 mode: 'cors',
                 headers: {

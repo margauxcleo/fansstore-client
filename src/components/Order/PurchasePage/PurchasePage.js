@@ -19,7 +19,7 @@ const Paiement = (props) => {
     // Récupération des informations clients présentes en base de données
     const getInfos = async () => {
         try {
-            const response = await fetch("http://localhost:8088/clients/client/infos", {
+            const response = await fetch("https://fansstore-server.herokuapp.com/clients/client/infos", {
                 method: 'GET',
                 mode: 'cors',
                 headers: {
@@ -49,7 +49,7 @@ const Paiement = (props) => {
         console.log('onSubmit: ', JSON.stringify(data));
         
         try {
-            const response = await fetch('http://localhost:8088/clients/updateClient', {
+            const response = await fetch('https://fansstore-server.herokuapp.com/clients/updateClient', {
                 method : 'PUT',
                 mode : 'cors',
                 headers : {
@@ -75,7 +75,7 @@ const Paiement = (props) => {
         console.log('onSubmit: ', JSON.stringify(data));
         
         try {
-            const response = await fetch('http://localhost:8088/clients/client/addAddress', {
+            const response = await fetch('https://fansstore-server.herokuapp.com/clients/client/addAddress', {
                 method : 'POST',
                 mode : 'cors',
                 headers : {
@@ -101,7 +101,7 @@ const Paiement = (props) => {
         console.log('onSubmit: ', JSON.stringify(data));
         
         try {
-            const response = await fetch('http://localhost:8088/clients/client/addCard', {
+            const response = await fetch('https://fansstore-server.herokuapp.com/clients/client/addCard', {
                 method : 'POST',
                 mode : 'cors',
                 headers : {
@@ -127,7 +127,7 @@ const Paiement = (props) => {
         console.log('onSubmit: ', JSON.stringify(data));
         
         try {
-            const response = await fetch('http://localhost:8088/orders/newOrder', {
+            const response = await fetch('https://fansstore-server.herokuapp.com/orders/newOrder', {
                 method : 'POST',
                 mode : 'cors',
                 headers : {
