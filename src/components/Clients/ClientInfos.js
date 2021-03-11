@@ -19,7 +19,7 @@ const ClientInfos = (props) => {
                 }
             });
             const parseRes = await response.json();
-            console.log(parseRes);
+            // console.log(parseRes);
             setInfos(parseRes);
             setFrDate(moment(parseRes.birth_date).format('DD-MM-YYYY'));
         } catch (e) {
